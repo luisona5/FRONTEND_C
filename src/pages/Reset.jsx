@@ -2,7 +2,7 @@ import logoDog from '../assets/dog-hand.webp'
 import { ToastContainer } from 'react-toastify';
 import { useState } from 'react'
 import { useParams,useNavigate } from 'react-router';
-import useFetch from '../Hooks/useFetch';
+import useFetch from '../hooks/useFetch.js';
 import { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import exito from '../assets/reset.jpg'
